@@ -1,6 +1,7 @@
 
 body{
     font-family: "Courier New", Helvetica, sans-serif;  
+    background-color: lightblue;
 }
 
 #main-title{
@@ -8,6 +9,9 @@ body{
     color: white;
     font-size: 40px;
     text-align: center;
+    padding: 20px;
+    margin: 10px auto 0px auto;
+
 }   
 
 #cubantitle{
@@ -15,11 +19,34 @@ body{
     font-size: 48px;
     text-align: center;
 }   
-
+.main-menu{
+    display:block;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: rgb(222, 184, 135);
+}
+li .link:hover{
+    color:white;
+    font-size: 28px;
+}
+li .link{
+    padding: 20px;
+    font-size: 24px;
+}
+ul li:hover{
+    background-color: rgb(208, 166, 110);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
 ul li{
     font-size: 32px;
     color: blue;
-    font-family: fantasy, sans-serif;
+    display: block;
+    padding: 0px;
+}
+ul li:first-child{
+    margin-top: 0px;
 }
 .button{
     text-align: end;
@@ -48,4 +75,8 @@ a{
 
 ol{
     font-size: 24px;
+}
+
+li a{
+    display:block;
 }
